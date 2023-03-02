@@ -65,7 +65,7 @@ function BookDetails({allBooks,isLoading,headingText}){
                 booksToDisplay.map((book,idx)=>{
                     return(
                         <tr key={idx}>
-                            <td>{book.title}v</td>
+                            <td>{book.title}</td>
                             <td>{book.author}</td>
                             <td>{book.latest_publish}</td>
                             <td>{book.first_publish}</td>
